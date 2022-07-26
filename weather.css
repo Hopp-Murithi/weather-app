@@ -87,7 +87,7 @@ h1.temp {
     top: 0;
     left: 20px;
 }
-@media(min-width:480px) {
+@media(max-width:480px) {
     body {
         font-size: 80%
     }
