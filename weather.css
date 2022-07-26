@@ -10,7 +10,6 @@ body {
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
     background-size: cover;
 }
-
 .card {
     background-color: rgb(12, 12, 12, 0.75);
     color: white;
@@ -20,7 +19,6 @@ body {
     max-width: 420px;
     margin: 1em;
 }
-
 .search {
     display: flex;
     align-items: center;
@@ -28,11 +26,9 @@ body {
     height: 2.5px;
     border-radius: 50%;
 }
-
 .city {
     text-transform: capitalize;
 }
-
 button {
     margin: 0.5em;
     border-radius: 50%;
@@ -40,13 +36,11 @@ button {
     width: 46px;
     border: none;
 }
-
 button:hover {
     background-color: blanchedalmond;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
-
 input[type="text"] {
     padding: 0.5em;
     font-size: 120%;
@@ -58,27 +52,22 @@ input[type="text"] {
     color: black;
     width: calc(100%-80px);
 }
-
 h1.temp {
     margin: 0;
 }
-
 .flex {
     display: flex;
     align-items: center;
 }
-
 .description {
     text-transform: capitalize;
     margin-left: 8px;
 }
-
 .weather.loading {
     visibility: hidden;
     max-height: 20px;
     position: relative;
 }
-
 .weather.loading:after {
     visibility: visible;
     content: "Just a moment...";
@@ -87,10 +76,9 @@ h1.temp {
     top: 0;
     left: 20px;
 }
-@media(max-width:480px) {
+@media(min-width:480px) {
     body {
-        font-size: 80px;
-        
+        font-size: 80%
     }
     .card {
         max-width: 300px;
