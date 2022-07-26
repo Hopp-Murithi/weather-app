@@ -87,3 +87,18 @@ h1.temp {
     top: 0;
     left: 20px;
 }
+@media(min-width:480px) {
+    body {
+        font-size: 80%
+    }
+    .card {
+        max-width: 300px;
+    }
+    button {
+        height: 30px;
+        width: 30px;
+    }
+    input {
+        font-size: 80px;
+    }
+}
