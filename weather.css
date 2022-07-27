@@ -22,7 +22,7 @@ body {
 .search {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 2.5px;
     border-radius: 50%;
 }
