@@ -38,7 +38,7 @@ button {
     border: none;
 }
 button:hover {
-    background-color: blanchedalmond;
+    background-color: black;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
@@ -76,5 +76,21 @@ h1.temp {
     position: absolute;
     top: 0;
     left: 20px;
+}
+@media(max-width:480px) {
+    body {
+        font-size: 80%;
+        background-attachment: fixed;
+             }
+    .card {
+        max-width: 300px;
+    }
+    button {
+        height: 30px;
+        width: 30px;
+    }
+    input {
+        font-size: 80px;
+    }
 }
 
